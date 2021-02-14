@@ -13,21 +13,28 @@ body{
 /* ------------ header --------------- */
 .header{
     background-image: url(../img/1.jpg);
-    height: 700px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 13%;
+    background-position: 50% 20%;
     border: solid 1px transparent;
 }
 .logo{
-    font-size: 37.5px;
+    font-size: 40px;
 }
+
 .header i{
     font-size: 25px;
-}
-.header i:hover{
     color: white;
 }
+.header i:hover{
+    color: black;
+}
+.box1{
+    position: relative;
+    top: 200px;
+}
+
 /* ------------  end header --------------- */
 /* --------- about ----------- */
 .about{
@@ -36,23 +43,39 @@ body{
 }
 .about .bg-img{
     border: solid 15px black;
+
 }
 .about img{
     position: relative;
     top: -40px;
-    left: 20px;
+    left: 30px;
 }
 .about i{
     font-size: 25px;
     padding: 15px 0px;
 }
 /* --------- end about ----------- */
-/* ------------ Journal -------------- */
-.journal{
+/* ---------- portfolio ------------ */
+.portfolio{
     background-color: #EAEAEA;
 }
+.box2 img{
+    height: 230px;
+    padding: 8px;
+}
+/* --------------end portfolio ----------- */
+/* ------------ Journal -------------- */
+
 .journal img{
     height: 200px;
 }
 
 /* ------------ end Journal -------------- */
+/* ------------ contact -------------- */
+.contact{
+    background-color: #EAEAEA;
+    
+}
+
+
+/* ------------ end contact -------------- */
